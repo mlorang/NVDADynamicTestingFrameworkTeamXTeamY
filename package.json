@@ -1,4 +1,10 @@
 {
+  "name": "nvda-dynamic-testing-framework",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed"
+  },
   "dependencies": {
     "@axe-core/playwright": "^4.13.0"
   },
